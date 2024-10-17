@@ -64,3 +64,4 @@ const result = number.filter((x) => {
 });
 
 console.log(result);
+console.log("start");
