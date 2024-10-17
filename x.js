@@ -57,3 +57,10 @@ function system_plus_Design(a, b) {
 }
 system_plus_Design(a, b);
 
+const number = [1, 2, 3, 4, 5, 6, 7];
+
+const result = number.filter((x) => {
+  return x % 2 !== 0;
+});
+
+console.log(result);
